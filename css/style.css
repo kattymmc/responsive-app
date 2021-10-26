@@ -34,6 +34,10 @@ p {
   margin-top: 5px;
 }
 
+.app-title{
+  text-align: left;
+}
+
 .navigation-links {
   display: flex;
   margin-top: 40px;
@@ -85,4 +89,24 @@ p {
 .img-fluid {
   max-width: 100%;
   height: auto;
+}
+
+@media (max-width: 576px){
+  h1 {
+    font-size: 48px;
+  }
+  h2{
+    font-size: 30px;
+  }
+  p{
+    text-align: center;
+  }
+  .app-title{
+    text-align: center;
+  }
+  .launch-button{
+    display: block;
+    text-align: center;
+    margin: 0px 20px;
+  }
 }
